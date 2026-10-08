@@ -40,4 +40,12 @@ h1 {
 }
 ```
 # 3. Langkah-Langkah
+## Langkah 1 - Membuat Repository GitHub
+1. Membuka website GitHub.
+2. Membuat repository baru dengan nama:
+```Lab3Web```
 
+3. Membuat file:
+```README.md```
+
+sebagai laporan praktikum.
