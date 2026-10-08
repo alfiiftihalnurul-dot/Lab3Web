@@ -61,10 +61,30 @@ Membuat struktur HTML dasar dengan elemen:
 Contoh struktur:
 ![gambar1](ss/gambar1.png)
 ## Langkah 3 - Menambahkan Internal CSS
-CSS internal ditambahkan pada bagian <head> menggunakan tag <style>.
+CSS internal ditambahkan pada bagian <head> menggunakan tag ```<style>.```
 Contoh:
 ![gambar2](ss/gambar2.png)
+
 Hasil:
 - Mengubah jenis font.
 - Mengubah warna teks.
 - Mengatur posisi heading.
+## Langkah 4 - Menambahkan Inline CSS
+Inline CSS ditambahkan langsung pada elemen HTML.
+![gambar3](ss/gambar3.png)
+## Langkah 5 - Membuat External CSS
+Membuat file CSS terpisah:
+```style_eksternal.css```
+
+Kemudian menghubungkan dengan HTML:
+```<link rel="stylesheet" href="style_eksternal.css">```
+
+Contoh CSS:
+![gambar4](ss/gambar4.png)
+## Langkah 6 - Menggunakan CSS Selector
+## ID Selector
+ID selector menggunakan tanda pagar ```(#).```
+![gambar4](ss/gambar4.png)
+Pemanggilan:
+```<div id="intro">
+</div>```
