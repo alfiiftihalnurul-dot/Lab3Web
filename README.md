@@ -105,3 +105,134 @@ Informasi
 # 4. Hasil Praktikum
 Tampilan hasil akhir
 ![hasil akhir](ss/gambar7.png)
+# 5. Jawaban Pertanyaan Praktikum
+## 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai CSS
+Eksperimen yang dilakukan:
+## Mengubah background
+```body {
+background-color:#eeeeee;
+}
+```
+
+Hasil:
+Background halaman berubah menjadi warna abu-abu.
+## Menambahkan border
+```
+#intro {
+
+border:2px solid black;
+
+}
+```
+Hasil:
+Elemen intro memiliki garis tepi.
+## Menambahkan padding
+```
+#intro {
+
+padding:20px;
+
+}
+```
+Hasil:
+Jarak antara konten dan batas elemen menjadi lebih besar.
+## 2. Apa perbedaan h1 {...} dengan #intro h1 {...}?
+Jawaban:
+```h1 {}``` merupakan element selector yang akan diterapkan pada seluruh elemen <h1> yang ada pada halaman HTML.
+Contoh:
+```
+h1 {
+
+color:red;
+
+}
+```
+Semua heading h1 akan berwarna merah.
+Sedangkan:
+```
+#intro h1 {
+
+color:white;
+
+}
+```
+hanya berlaku untuk elemen ```<h1>``` yang berada di dalam elemen dengan id="intro".
+Contoh:
+```
+<div id="intro">
+
+<h1>Hello World</h1>
+
+</div>
+```
+Kesimpulan:
+-``` h1 {}```memiliki cakupan lebih luas.
+- ```#intro h1 {}``` hanya berlaku pada bagian tertentu.
+## 3. Jika terdapat CSS Internal, External, dan Inline pada elemen yang sama, mana yang digunakan browser?
+Jawaban:
+Browser menggunakan aturan prioritas CSS.
+Urutannya:
+1. Inline CSS
+2. Internal CSS / External CSS berdasarkan urutan penulisan
+3. Selector dengan tingkat spesifikasi lebih tinggi
+Contoh:
+## Internal:
+```
+p {
+
+color:blue;
+
+}
+```
+## Inline:
+```
+<p style="color:red">
+
+Text
+
+</p>
+```
+Hasil yang tampil:
+Warna merah.
+Alasannya karena inline CSS memiliki prioritas lebih tinggi dibanding internal maupun external CSS.
+## 4. Jika elemen memiliki ID dan Class, selector mana yang digunakan?
+Contoh:
+```
+<p id="paragraf-1" class="text-paragraf">
+
+Isi paragraf
+
+</p>
+```
+CSS:
+Class:
+```
+.text-paragraf {
+
+color:blue;
+
+}
+```
+ID:
+```
+#paragraf-1 {
+
+color:red;
+
+}
+```
+Hasil:
+Tulisan akan berwarna merah.
+Alasan:
+ID selector memiliki tingkat prioritas lebih tinggi dibandingkan class selector.
+Urutan prioritas:
+1. ID Selector
+2. Class Selector
+3. Element Selector
+## 6. Kesimpulan
+Berdasarkan praktikum CSS Dasar, dapat disimpulkan bahwa CSS sangat membantu dalam mengatur tampilan website.
+CSS dapat diterapkan menggunakan:
+- Internal CSS
+- Inline CSS
+- External CSS
+Selain itu, penggunaan selector seperti ID dan Class memudahkan pengaturan elemen HTML secara lebih spesifik.
