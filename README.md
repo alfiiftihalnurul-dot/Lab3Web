@@ -85,8 +85,23 @@ Contoh CSS:
 ## ID Selector
 ID selector menggunakan tanda pagar ```(#).```
 ![gambar5](ss/gambar5.png)
+
 Pemanggilan:
 ```
 <div id="intro">
 </div>
 ```
+## Class Selector
+Class selector menggunakan tanda titik ```(.).```
+![gambar6](ss/gambar6.png)
+
+Pemanggilan:
+```
+<a class="button">
+Informasi
+</a>
+```
+
+# 4. Hasil Praktikum
+Tampilan hasil akhir
+![hasil akhir](ss/gambar7.png)
