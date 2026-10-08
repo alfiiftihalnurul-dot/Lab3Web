@@ -84,7 +84,9 @@ Contoh CSS:
 ## Langkah 6 - Menggunakan CSS Selector
 ## ID Selector
 ID selector menggunakan tanda pagar ```(#).```
-![gambar4](ss/gambar4.png)
+![gambar5](ss/gambar5.png)
 Pemanggilan:
-```<div id="intro">
-</div>```
+```
+<div id="intro">
+</div>
+```
