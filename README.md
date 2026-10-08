@@ -49,3 +49,13 @@ h1 {
 ```README.md```
 
 sebagai laporan praktikum.
+# Langkah 2 - Membuat Dokumen HTML
+Membuat struktur HTML dasar dengan elemen:
+- <html>
+- <head>
+- <body>
+- <header>
+- <nav>
+- <div>
+Contoh struktur:
+![gambar1](ss/gambar1.png)
