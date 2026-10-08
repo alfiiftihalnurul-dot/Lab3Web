@@ -49,7 +49,7 @@ h1 {
 ```README.md```
 
 sebagai laporan praktikum.
-# Langkah 2 - Membuat Dokumen HTML
+## Langkah 2 - Membuat Dokumen HTML
 Membuat struktur HTML dasar dengan elemen:
 ```- <html>
 - <head>
@@ -60,3 +60,11 @@ Membuat struktur HTML dasar dengan elemen:
 ```
 Contoh struktur:
 ![gambar1](ss/gambar1.png)
+## Langkah 3 - Menambahkan Internal CSS
+CSS internal ditambahkan pada bagian <head> menggunakan tag <style>.
+Contoh:
+![gambar2](ss/gambar2.png)
+Hasil:
+- Mengubah jenis font.
+- Mengubah warna teks.
+- Mengatur posisi heading.
